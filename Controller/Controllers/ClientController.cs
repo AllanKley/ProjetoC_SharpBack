@@ -46,11 +46,11 @@ public class ClientController : ControllerBase
 
 
     [HttpGet]
-    [Route("get/{id}")]
-    public IActionResult getInformations(int id)
+    [Route("get")]
+    public IActionResult getInformations()
     {
-     
-        var client = Model.Client.find(id);
+        var ClientId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
+        var client = Model.Client.find(ClientId);
         
         var clientobj = new{
             name = client.getName(),
