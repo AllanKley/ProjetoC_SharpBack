@@ -19,14 +19,16 @@ public class WishList : IValidateDataObject, IDataController<WishListDTO, WishLi
     {
     }
 
-    public static List<WishListResponseDTO> GetWishList(int IdClient){
+    public static List<WishListResponseDTO> GetWishList(int IdClient)
+    {
 
-        using(var context = new DAOContext()){
-            var wishLists = context.wishlists.Include(p=>p.client).Include(p=>p.stocks)
-            .Include(p=>p.stocks.product).Include(p=> p.stocks.store).Where(i=> i.client.id ==IdClient);
-        
+        using (var context = new DAOContext())
+        {
+            var wishLists = context.wishlists.Include(p => p.client).Include(p => p.stocks)
+            .Include(p => p.stocks.product).Include(p => p.stocks.store).Where(i => i.client.id == IdClient);
+
             var responseproducts = new List<WishListResponseDTO>();
-            foreach(var item in wishLists)
+            foreach (var item in wishLists)
             {
                 var newproduct = new WishListResponseDTO();
                 newproduct.bar_code = item.stocks.product.bar_code;
@@ -39,10 +41,10 @@ public class WishList : IValidateDataObject, IDataController<WishListDTO, WishLi
                 newproduct.Quantity = item.stocks.quantity;
                 newproduct.name = item.stocks.product.name;
                 responseproducts.Add(newproduct);
-                
+
             }
             return responseproducts;
-        }   
+        }
     }
     public static WishList convertDTOToModel(WishListDTO obj)
     {
@@ -59,10 +61,11 @@ public class WishList : IValidateDataObject, IDataController<WishListDTO, WishLi
 
     public void delete()
     {
-        
+
     }
 
-    public static string deleteProduct(int id,int ClientId){
+    public static string deleteProduct(int id, int ClientId)
+    {
         using (var context = new DAOContext())
         {
             var wishList = context.wishlists
@@ -74,36 +77,44 @@ public class WishList : IValidateDataObject, IDataController<WishListDTO, WishLi
     }
 
 
-    public int save(int sctock, int client)
+    public int save(int stocks, int client)
     {
         var id = 0;
 
         using (var context = new DAOContext())
         {
-
-            var clientDAO = context.Client.FirstOrDefault(c => c.id == client);
-            var stocksDAO = context.stocks.FirstOrDefault(x=> x.id == sctock);
-
-            var wishList = new DAO.WishList
+            var wishlist = context.wishlists.FirstOrDefault(w => w.stocks.id == stocks && w.client.id == client);
+            if (wishlist == null)
             {
-                client = clientDAO,
-                stocks = stocksDAO
-                
-            };
+                var clientDAO = context.Client.FirstOrDefault(c => c.id == client);
+                var stocksDAO = context.stocks.FirstOrDefault(x => x.id == stocks);
 
-            context.wishlists.Add(wishList);
-            context.Entry(wishList.client).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
-            context.Entry(wishList.stocks).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+                var wishList = new DAO.WishList
+                {
+                    client = clientDAO,
+                    stocks = stocksDAO
 
-            context.SaveChanges();
+                };
 
-            id = wishList.id;
+                context.wishlists.Add(wishList);
+                context.Entry(wishList.client).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+                context.Entry(wishList.stocks).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+
+                context.SaveChanges();
+
+                id = wishList.id;
+                return id;
+            }
+            else{
+                return 0;
+            }
+
 
         }
-        return id;
+
     }
 
-    
+
 
 
     public void update(WishListDTO obj)

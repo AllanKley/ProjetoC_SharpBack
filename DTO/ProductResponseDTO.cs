@@ -6,5 +6,6 @@ namespace DTO
         public int Quantity;
         public double Unit_price;   
         public string CNPJ;
+        public int IdStocks;
     }
 }
