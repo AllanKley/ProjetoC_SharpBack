@@ -6,6 +6,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 
 using Model.Utils;
 
@@ -98,6 +99,15 @@ public class ClientController : ControllerBase
             return BadRequest();
         }
         
+    }
+
+   
+    [HttpGet]
+    [Route("verifytoken")]
+    [Authorize]
+    public int GetToken(){
+        var rnd = new Random();
+        return (rnd.Next(0,1001));
     }
 }
 
