@@ -19,11 +19,8 @@ public class WishListController : ControllerBase
         
         var ClientId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
         var wishlist = new Model.WishList();
-        wishlist.save(stocksDTO.id, ClientId);
-        return new
-        {
-                response = "salvou no banco"
-        };
+        var response = wishlist.save(stocksDTO.id, ClientId);
+        return response;
     }   
 
     [Authorize]

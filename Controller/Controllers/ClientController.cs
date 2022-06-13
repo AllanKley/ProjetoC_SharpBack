@@ -102,10 +102,9 @@ public class ClientController : ControllerBase
         
     }
 
-   
+    [Authorize]
     [HttpGet]
     [Route("verifytoken")]
-    [Authorize]
     public int GetToken(){
         Console.WriteLine(DateTime.Now.AddMinutes(1));
         var rnd = new Random();

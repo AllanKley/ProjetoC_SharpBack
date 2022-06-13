@@ -176,6 +176,7 @@ public class Product : IValidateDataObject, IDataController<ProductDTO, Product>
                 TransitionDAO.Quantity = item.Stock.quantity;
                 TransitionDAO.Unit_price = item.Stock.unit_price;  
                 TransitionDAO.CNPJ = item.Stock.store.CNPJ;
+                TransitionDAO.IdStocks = item.Stock.id;
                 productsDTO.Add(TransitionDAO);
             }
             return productsDTO;
