@@ -25,7 +25,9 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
 
     public static Purchase convertDTOToModel(PurchaseDTO obj)
     {
-        
+        var storeModel = Model.Store.findStore(obj.store.CNPJ);
+        var products = new List<Model.Product>();
+
         var purchase = new Purchase();
         purchase.client = Client.convertDTOToModel(obj.client);
         purchase.date_purchase = obj.data_purchase;
@@ -34,6 +36,12 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
         purchase.purchase_status = obj.purchase_status;
         purchase.number_confirmation = obj.number_confirmation;
         purchase.number_nf = obj.number_nf;
+        purchase.setStore(storeModel);
+        
+        foreach(ProductDTO productDTO in obj.productsDTO){
+            products.Add(Model.Product.convertDTOToModel(productDTO));
+        }
+        purchase.setProducts(products);
 
         return purchase;
     }
@@ -49,9 +57,10 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
         var id = 0;
         using (var context = new DAOContext())
         {
-            var clientDAO =  context.Client.FirstOrDefault(c => c.id == 1);
-            var storeDAO = context.stores.FirstOrDefault(s =>s.id ==1);
-            var productsDAO = context.products.FirstOrDefault(x=> x.id == 1);
+
+            var clientDAO =  context.Client.FirstOrDefault(c => c.document == this.GetClient().getDocument());
+            var storeDAO = context.stores.FirstOrDefault(s =>s.id == this.GetStore().getID());
+            var productsDAO = context.products.FirstOrDefault(x=> x.id == this.getProducts()[0].getID());
             
             var purchase = new DAO.Purchase {
                 date_purchase = this.date_purchase,

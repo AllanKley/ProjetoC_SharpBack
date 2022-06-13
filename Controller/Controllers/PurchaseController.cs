@@ -40,11 +40,14 @@ public class PurchaseController : ControllerBase
     [Route("register")]
     public object makePurchase([FromBody] PurchaseDTO purchase)
     {
-        var clientId = Lib.GetIdFromRequest(Response.Headers["Autorization"].ToString());
+        var ClientId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
+        Console.WriteLine(purchase.productsDTO[0].bar_code);
 
         var purchaseModel = Model.Purchase.convertDTOToModel(purchase);
 
-        purchaseModel.setClient(Model.Client.find(clientId));
+        
+
+        purchaseModel.setClient(Model.Client.find(ClientId));
 
         int id = purchaseModel.save();
 

@@ -67,9 +67,10 @@ public class Store: IValidateDataObject, IDataController<StoreDTO, Store>
 
     public StoreDTO findById(int id)
     {
-
         return new StoreDTO();
     }
+
+
 
     public static object find(string CNPJ){
 
@@ -78,14 +79,25 @@ public class Store: IValidateDataObject, IDataController<StoreDTO, Store>
 
             var storeDAO = context.stores. Include(i => i.owner).Include(i => i.owner.address).FirstOrDefault(o => o.CNPJ == CNPJ);
 
-
-
             return new
             {
                 name = storeDAO.name,
                 CNPJ = storeDAO.CNPJ,
                 owner = storeDAO.owner
             };
+        };
+    }
+
+    public static Store findStore(string CNPJ){
+
+        using (var context = new DAOContext())
+        {
+
+            var storeDAO = context.stores.Include(i => i.owner).Include(i => i.owner.address).FirstOrDefault(o => o.CNPJ == CNPJ);
+
+            Store storeModel = Model.Store.convertDTOToModel(Model.Store.ConvertDaoToDTO(storeDAO));
+
+            return storeModel;
         };
     }
 
@@ -148,6 +160,16 @@ public class Store: IValidateDataObject, IDataController<StoreDTO, Store>
         return storeDTO;
     }
 
+
+    public static StoreDTO ConvertDaoToDTO(DAO.Store storeDao)
+    {
+        var storeDTO = new StoreDTO();
+        storeDTO.name = storeDao.name;
+        storeDTO.CNPJ = storeDao.CNPJ;
+        storeDTO.owner = Owner.ConvertDaoToDTO(storeDao.owner);
+
+        return storeDTO;
+    }
 
 
    public Boolean validateObject()
