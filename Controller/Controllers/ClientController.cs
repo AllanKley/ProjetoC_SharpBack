@@ -90,8 +90,9 @@ public class ClientController : ControllerBase
                 _configuration["Jwt:Issuer"],
                 _configuration["Jwt:Audience"],
                 claims,
-                expires: DateTime.UtcNow.AddMinutes(10),
+                expires: DateTime.UtcNow.AddMinutes(1),
                 signingCredentials:singIn);
+                Console.WriteLine(DateTime.Now.AddMinutes(1));
             return Ok(new JwtSecurityTokenHandler().WriteToken(token));
         }
         else
@@ -106,6 +107,7 @@ public class ClientController : ControllerBase
     [Route("verifytoken")]
     [Authorize]
     public int GetToken(){
+        Console.WriteLine(DateTime.Now.AddMinutes(1));
         var rnd = new Random();
         return (rnd.Next(0,1001));
     }
