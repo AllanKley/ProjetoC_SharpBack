@@ -168,6 +168,7 @@ public class Product : IValidateDataObject, IDataController<ProductDTO, Product>
             foreach (var item in TodosOsProdutos)
             {
                 var TransitionDAO = new DTO.ProductResponseDTO();
+                TransitionDAO.Id = item.Product.id;
                 TransitionDAO.bar_code = item.Product.bar_code;
                 TransitionDAO.name = item.Product.name;
                 TransitionDAO.image = item.Product.image;
