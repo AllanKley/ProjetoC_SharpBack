@@ -1838,19 +1838,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\disrct\\.nuget\\packages\\": {}
+    "C:\\Users\\disrct\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Model\\Model.csproj",
       "projectName": "Model",
       "projectPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Model\\Model.csproj",
       "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Model\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Model\\Model.csproj",
+      "projectName": "Model",
+      "projectPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Model\\Model.csproj",
+      "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Model\\obj\\",
+>>>>>>> 76e6a5277b75b83aca4339f464011578a423c598
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1864,6 +1877,7 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
               "projectPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DAO\\DAO.csproj"
             },
@@ -1875,6 +1889,19 @@
             },
             "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj": {
               "projectPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj"
+=======
+            "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
+              "projectPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj"
+            },
+            "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DTO\\DTO.csproj"
+            },
+            "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Enums\\Enums.csproj": {
+              "projectPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Enums\\Enums.csproj"
+            },
+            "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj"
+>>>>>>> 76e6a5277b75b83aca4339f464011578a423c598
             }
           }
         }
@@ -1916,5 +1943,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Model\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

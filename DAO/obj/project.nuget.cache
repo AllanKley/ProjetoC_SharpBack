@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "GYd3BzDt7s79BnrGAV5t7YON0gJ3up1KuevI4CWlsR6kOyXatT1wRfKwbloH9737e6LzKcH+Qkhrz9AzaXJw6Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DAO\\DAO.csproj",
+=======
+  "dgSpecHash": "cJCWaDZrQciVTAzBI3zuUYcTfbSF3RBsV504QIReJ22l7BVvphxDVTdCOae1R2cNVHMBOGy56DY49MZ6BthpIg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj",
+>>>>>>> 76e6a5277b75b83aca4339f464011578a423c598
   "expectedPackageFiles": [
     "C:\\Users\\disrct\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\disrct\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
@@ -45,5 +51,12 @@
     "C:\\Users\\disrct\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\disrct\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DAO\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CR26VFCy7/yxUf982+hf9nkM/DOAu9w+UsM2ZohX5LrEt1ofHw9/H514qIfc9v9IfHme33hw35pbNAbeyY+DYw==",
+  "dgSpecHash": "TCgBRdkHj0FaiQWDh219ZwmDDZe/Hk7o2ZlBtJWxtVI/Y+p99UcGv7xND8nxaPIsODsLOGjBOptf6CzQJeCb7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\disrct\\Desktop\\ProjetoC_SharpBack\\Controller\\Controller.csproj",
+  "projectFilePath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Controller\\Controller.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\disrct\\.nuget\\packages\\microsoft.aspnet.cors\\5.2.8\\microsoft.aspnet.cors.5.2.8.nupkg.sha512",
     "C:\\Users\\disrct\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.8\\microsoft.aspnet.webapi.client.5.2.8.nupkg.sha512",
@@ -83,6 +83,12 @@
     "C:\\Users\\disrct\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Controller\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
     {
       "code": "NU1701",
       "level": "Warning",

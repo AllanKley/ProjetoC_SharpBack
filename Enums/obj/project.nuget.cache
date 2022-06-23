@@ -1,8 +1,21 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "oG1gIMw9MBcNJlfeMiSzgEyjrxb9v5RtpxnM5drTSJq3vnU29Pxk3sqd/9L6cIndTlG9KBf0OjTuEMOiJmd4QQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
+=======
+  "dgSpecHash": "L2SqNabYdN4zKv+sn3gXohxanHwR9Y2b6ZYTr4ikgM5dRhyFzARLR+nzSpk9VDcqlRIcPabkTiJ8WJvB0fWoDQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
+>>>>>>> 76e6a5277b75b83aca4339f464011578a423c598
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Enums\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

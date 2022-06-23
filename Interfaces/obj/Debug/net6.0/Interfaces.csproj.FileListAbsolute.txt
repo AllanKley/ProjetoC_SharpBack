@@ -22,6 +22,7 @@ C:\Users\disrct\Desktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interface
 C:\Users\disrct\Desktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\refint\Interfaces.dll
 C:\Users\disrct\Desktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.pdb
 C:\Users\disrct\Desktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\ref\Interfaces.dll
+<<<<<<< HEAD
 C:\Users\disrct\Desktop\repo\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.deps.json
 C:\Users\disrct\Desktop\repo\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.dll
 C:\Users\disrct\Desktop\repo\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.pdb
@@ -34,3 +35,17 @@ C:\Users\disrct\Desktop\repo\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Inte
 C:\Users\disrct\Desktop\repo\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\refint\Interfaces.dll
 C:\Users\disrct\Desktop\repo\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.pdb
 C:\Users\disrct\Desktop\repo\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\ref\Interfaces.dll
+=======
+C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.deps.json
+C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.dll
+C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.pdb
+C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.csproj.AssemblyReference.cache
+C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfo.cs
+C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.dll
+C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\refint\Interfaces.dll
+C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.pdb
+C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\ref\Interfaces.dll
+>>>>>>> 76e6a5277b75b83aca4339f464011578a423c598

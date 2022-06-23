@@ -94,14 +94,15 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
         return new PurchaseDTO();
     }
 
-    public static List<object> FindClientPurchase(String documentDTO){
+    public static List<object> FindClientPurchase(int id){
 
          using (var context = new DAOContext())
         {
 
-            var purchaseDAO = context.purchases.Include(i => i.client).Include(i => i.store).Include(i => i.product).Include(i => i.client.address).Include(i => i.store.owner).Include(i => i.store.owner.address).Where(o => o.client.document == documentDTO);
+            var purchaseDAO = context.purchases.Include(i => i.store).Include(i => i.product).Where(o => o.client.id == id);
 
             List<object> purchases = new List<object>();
+            
             foreach(object purchase in purchaseDAO){
                 purchases.Add(purchase);
             }
