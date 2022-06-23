@@ -1790,11 +1790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
+      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
       "projectName": "DTO",
-      "projectPath": "C:\\Users\\disrct\\Desktop\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
+      "projectPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
       "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\disrct\\Desktop\\ProjetoC_SharpBack\\DTO\\obj\\",
+      "outputPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1811,8 +1811,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\disrct\\Desktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
-              "projectPath": "C:\\Users\\disrct\\Desktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj"
+            "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
+              "projectPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DAO\\DAO.csproj"
             }
           }
         }

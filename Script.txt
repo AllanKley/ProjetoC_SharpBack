@@ -1,0 +1,50 @@
+INSERT INTO addresses (city,country,postal_code,state,street)
+VALUES
+  ('Nova Iguaçu','Brazil','45573-644','Bahia','3458 Venenatis Avenue'),
+  ('Jaboatão dos Guararapes','Brazil','48141-776','Ceará','6417 Id, Rd.'),
+  ('Castanhal','Brazil','58362-800','Rio Grande do Sul','5162 Semper Av.'),
+  ('Ilhéus','Brazil','68151-833','Bahia','Ap #632-7193 Aptent Av.'),
+  ('Campina Grande','Brazil','63118-726','Paraná','7841 Imperdiet Street');
+
+go
+
+INSERT INTO Client(addressid,name,date_of_birth,document,email,login,passwd,phone)
+VALUES
+  (2,'Marcia Witt','2011-01-16 15:58:03',8966,'nec.mollis@protonmail.edu','ipsum','YUA85PHE1YL','(493) 818-5813'),
+  (5,'Celeste Humphrey','2002-12-03 00:18:27',9855,'lobortis.mauris@protonmail.edu','urna','ESQ45JUB7IU','(293) 968-2051'),
+  (2,'Dalton Terry','2008-11-29 21:07:18',8091,'nulla@hotmail.org','mi,','KMJ36DDS4GJ','1-438-438-6413'),
+  (1,'Ishmael Gray','2010-04-22 22:34:55',9055,'magna@google.net','elit.','OGF71DQH3SC','1-138-330-5064'),
+  (3,'Serina Gallagher','2017-05-14 20:40:16',3010,'hendrerit.donec.porttitor@yahoo.net','dev','123456','1-412-444-8575');
+
+go
+
+INSERT INTO owners(addressid,name,date_of_birth,document,email,login,passwd,phone)
+VALUES
+  (2,'Beverly Gallagher','2022-09-24 02:03:28',4519,'integer@google.net','at','WLI22UTS2CJ','(471) 613-8544'),
+  (5,'Lyle Wooten','2016-04-28 08:42:25',6640,'adipiscing.elit@hotmail.org','enim.','GCU87SYX2JW','(654) 719-9235'),
+  (4,'Martina Munoz','1999-08-16 19:19:49',4371,'nisi.a.odio@hotmail.com','hendrerit.','KJK72GHM4LM','(270) 744-6343'),
+  (5,'Kaitlin Tyson','2004-04-19 11:32:41',2264,'semper.tellus.id@protonmail.ca','malesuada','YSR56YGB2KZ','1-653-481-9365'),
+  (3,'Talon Alford','1995-09-22 07:43:24',6813,'nulla.dignissim@aol.edu','dev','123456','1-921-867-6378');
+
+go
+
+INSERT INTO stores(cnpj,name,ownerid)
+VALUES
+  (784,'Cameron',5),
+  (719,'Oscar',4),
+  (290,'Keane',1),
+  (250,'Phelan',2),
+  (933,'Matthew',5);
+
+go
+
+
+INSERT INTO products(bar_code,description,name,image)
+VALUES
+  (49361,'ante dictum cursus. Nunc mauris elit, dictum eu,','Curtis','https://m.media-amazon.com/images/I/91-HgXWeGRL._AC_SY550_.jpg'),
+  (10720,'blandit. Nam nulla magna, malesuada vel,','Mccall','https://images.tcdn.com.br/img/img_prod/604470/jogo_super_smash_bros_ultimate_nintendo_switch_1999_1_03caf51f4dcfbf21519d1e84ed29084d.png'),
+  (91624,'et pede. Nunc sed','Mccray','https://nintendobarato.com.br/wp-content/uploads/elementor/thumbs/Minecraft-Nintendo-Switch-phhacrfmr4x1952jnkqvz7l3bp4j5r3s33yvgjoy2g.png
+'),
+  (1282,'neque. Sed eget lacus. Mauris non dui','Benjamin','https://images.tcdn.com.br/img/img_prod/604470/jogo_super_smash_bros_ultimate_nintendo_switch_1999_1_03caf51f4dcfbf21519d1e84ed29084d.png'),
+  (6372,'sed,','Barry','https://images.tcdn.com.br/img/img_prod/604470/jogo_super_mario_odyssey_nintendo_switch_2001_1_568a6c19e47d59eea1effac1a4ecd2ce.png');
+

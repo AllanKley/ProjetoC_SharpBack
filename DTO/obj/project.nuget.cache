@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g1IMMgHR0rEduGGa6ELeAwdDEEcWAq8PxrEi5VbUDLTYceq0BoEfh/4aIha5qAsYjFb+Pf02wdi5DY+n7c1feA==",
+  "dgSpecHash": "HZZZ59om8tI7dWh2lqeUQUSLmZoC8ntCe9VRcCz/ge/X0eVWD3ofseKSk5SDx0d2ZPi+BAjVJsyp7pEaYPH6Cg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\disrct\\Desktop\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
+  "projectFilePath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\disrct\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\disrct\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
