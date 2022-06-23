@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "cJCWaDZrQciVTAzBI3zuUYcTfbSF3RBsV504QIReJ22l7BVvphxDVTdCOae1R2cNVHMBOGy56DY49MZ6BthpIg==",
-=======
-  "dgSpecHash": "YTFo+eypFahpAmVZvsnxljnL+xUS3i5eVTpLt+UZDG5eDn2u8AJATy1V0vVt9ylxXYVtT32FMp+c2eC/mZz8og==",
->>>>>>> 6e93ec10b036e48b4c431838ed4d3feac31c6bce
   "success": true,
   "projectFilePath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj",
   "expectedPackageFiles": [
@@ -49,5 +45,12 @@
     "C:\\Users\\disrct\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\disrct\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DAO\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
