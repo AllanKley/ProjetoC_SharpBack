@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "xMbnwDW04MuMzv1aefGXIxfILcrqZdfxHqIlFwlgFxrPdqr1OHzfZ1L5EGvNDR5i0Ac7B4yo8RJCkQ0jEyuNJg==",
+=======
+  "dgSpecHash": "R+N4BHX8GIpz3n/k/CVNwTXUzBCLEsCZfEfwNLftHiEtboE2g4ftd69y6a8Od04dNPerKdcb1icKdLmqCDjjQg==",
+>>>>>>> 6e93ec10b036e48b4c431838ed4d3feac31c6bce
   "success": true,
   "projectFilePath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
   "expectedPackageFiles": [],

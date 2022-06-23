@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "TCgBRdkHj0FaiQWDh219ZwmDDZe/Hk7o2ZlBtJWxtVI/Y+p99UcGv7xND8nxaPIsODsLOGjBOptf6CzQJeCb7Q==",
+=======
+  "dgSpecHash": "CR26VFCy7/yxUf982+hf9nkM/DOAu9w+UsM2ZohX5LrEt1ofHw9/H514qIfc9v9IfHme33hw35pbNAbeyY+DYw==",
+>>>>>>> 6e93ec10b036e48b4c431838ed4d3feac31c6bce
   "success": true,
   "projectFilePath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Controller\\Controller.csproj",
   "expectedPackageFiles": [

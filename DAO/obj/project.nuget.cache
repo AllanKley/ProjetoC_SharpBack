@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "cJCWaDZrQciVTAzBI3zuUYcTfbSF3RBsV504QIReJ22l7BVvphxDVTdCOae1R2cNVHMBOGy56DY49MZ6BthpIg==",
+=======
+  "dgSpecHash": "YTFo+eypFahpAmVZvsnxljnL+xUS3i5eVTpLt+UZDG5eDn2u8AJATy1V0vVt9ylxXYVtT32FMp+c2eC/mZz8og==",
+>>>>>>> 6e93ec10b036e48b4c431838ed4d3feac31c6bce
   "success": true,
   "projectFilePath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj",
   "expectedPackageFiles": [

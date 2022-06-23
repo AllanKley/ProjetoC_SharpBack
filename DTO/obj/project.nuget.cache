@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "6Zx5z1VQuyGF3af3DhjaJuEeCnTmT8WE4v+xc+ZkeuDxw9ONgOYQ6IxYJcVulBKaWYDWEncRQwc5WU5RvzNERw==",
+=======
+  "dgSpecHash": "g1IMMgHR0rEduGGa6ELeAwdDEEcWAq8PxrEi5VbUDLTYceq0BoEfh/4aIha5qAsYjFb+Pf02wdi5DY+n7c1feA==",
+>>>>>>> 6e93ec10b036e48b4c431838ed4d3feac31c6bce
   "success": true,
   "projectFilePath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
   "expectedPackageFiles": [
