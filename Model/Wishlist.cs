@@ -31,6 +31,7 @@ public class WishList : IValidateDataObject, IDataController<WishListDTO, WishLi
             foreach (var item in wishLists)
             {
                 var newproduct = new WishListResponseDTO();
+                newproduct.id = item.stocks.product.id;
                 newproduct.bar_code = item.stocks.product.bar_code;
                 newproduct.IdStocks = item.stocks.id;
                 newproduct.idWishlist = item.id;
@@ -93,7 +94,6 @@ public class WishList : IValidateDataObject, IDataController<WishListDTO, WishLi
                 {
                     client = clientDAO,
                     stocks = stocksDAO
-
                 };
 
                 context.wishlists.Add(wishList);

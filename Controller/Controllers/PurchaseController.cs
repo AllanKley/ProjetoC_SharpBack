@@ -13,10 +13,11 @@ public class PurchaseController : ControllerBase
 
     
     [HttpGet]
-    [Route("get/client/{document}")]
-    public object getClientPurchase(String document){
+    [Route("get/client")]
+    public List<object> getClientPurchase(){
+        var ClientId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
 
-        var Purchase = Model.Purchase.FindClientPurchase(document);
+        var Purchase = Model.Purchase.FindClientPurchase(ClientId);
     
         return Purchase;
     }

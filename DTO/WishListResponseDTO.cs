@@ -4,7 +4,7 @@ public class WishListResponseDTO
     public int Quantity;
     public double Unit_price;   
     public string CNPJ;
-
+    public int id;
     public string bar_code;
     public string image;
     public string description;
