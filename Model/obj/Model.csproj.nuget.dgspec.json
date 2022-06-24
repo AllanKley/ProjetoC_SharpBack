@@ -1,38 +1,20 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Model\\Model.csproj": {}
+    "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Model\\Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
+    "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DAO\\DAO.csproj",
+        "projectUniqueName": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DAO\\DAO.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DAO\\obj\\",
-=======
-    "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Model\\Model.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj",
-        "projectName": "DAO",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DAO\\obj\\",
->>>>>>> 76e6a5277b75b83aca4339f464011578a423c598
+        "projectPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DAO\\DAO.csproj",
+        "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DAO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,36 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
-    "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DTO\\DTO.csproj": {
+    "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DTO\\obj\\",
-=======
-    "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DTO\\DTO.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
-        "projectName": "DTO",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DTO\\obj\\",
->>>>>>> 76e6a5277b75b83aca4339f464011578a423c598
+        "projectPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DTO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -125,13 +92,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DAO\\DAO.csproj"
-=======
-              "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj"
->>>>>>> 76e6a5277b75b83aca4339f464011578a423c598
+              "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
+                "projectPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DAO\\DAO.csproj"
               }
             }
           }
@@ -160,36 +122,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
-    "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Enums\\Enums.csproj": {
+    "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Enums\\Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
+        "projectUniqueName": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
         "projectName": "Enums",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Enums\\obj\\",
-=======
-    "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Enums\\Enums.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
-        "projectName": "Enums",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Enums\\obj\\",
->>>>>>> 76e6a5277b75b83aca4339f464011578a423c598
+        "projectPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
+        "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Enums\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -229,36 +176,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
-    "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj": {
+    "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Interfaces\\obj\\",
-=======
-    "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
-        "projectName": "Interfaces",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Interfaces\\obj\\",
->>>>>>> 76e6a5277b75b83aca4339f464011578a423c598
+        "projectPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -298,36 +230,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
-    "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Model\\Model.csproj": {
+    "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Model\\obj\\",
-=======
-    "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Model\\Model.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Model\\Model.csproj",
-        "projectName": "Model",
-        "projectPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Model\\obj\\",
->>>>>>> 76e6a5277b75b83aca4339f464011578a423c598
+        "projectPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -341,31 +258,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DAO\\DAO.csproj"
+              "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
+                "projectPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DAO\\DAO.csproj"
               },
-              "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\DTO\\DTO.csproj"
+              "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DTO\\DTO.csproj"
               },
-              "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Enums\\Enums.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Enums\\Enums.csproj"
+              "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Enums\\Enums.csproj": {
+                "projectPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Enums\\Enums.csproj"
               },
-              "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj"
-=======
-              "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj"
-              },
-              "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\DTO\\DTO.csproj"
-              },
-              "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Enums\\Enums.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Enums\\Enums.csproj"
-              },
-              "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj"
->>>>>>> 76e6a5277b75b83aca4339f464011578a423c598
+              "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj"
               }
             }
           }
@@ -404,7 +307,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

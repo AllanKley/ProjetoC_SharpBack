@@ -49,3 +49,15 @@ C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net
 C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.pdb
 C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\ref\Interfaces.dll
 >>>>>>> 76e6a5277b75b83aca4339f464011578a423c598
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.deps.json
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\ref\Interfaces.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.pdb
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.csproj.AssemblyReference.cache
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfoInputs.cache
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfo.cs
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\ref\Interfaces.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.pdb

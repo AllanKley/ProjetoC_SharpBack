@@ -48,3 +48,32 @@ VALUES
   (1282,'neque. Sed eget lacus. Mauris non dui','Benjamin','https://images.tcdn.com.br/img/img_prod/604470/jogo_super_smash_bros_ultimate_nintendo_switch_1999_1_03caf51f4dcfbf21519d1e84ed29084d.png'),
   (6372,'sed,','Barry','https://images.tcdn.com.br/img/img_prod/604470/jogo_super_mario_odyssey_nintendo_switch_2001_1_568a6c19e47d59eea1effac1a4ecd2ce.png');
 
+go
+
+INSERT INTO stocks(productid,quantity,storeid,unit_price)
+VALUES
+  (2,4561,3,1982),
+  (5,1301,5,901),
+  (4,87,3,436),
+  (4,4164,5,43),
+  (2,493,3,1420);
+
+go 
+
+INSERT INTO wishlists(stocksid,clientid)
+VALUES
+  (2,4),
+  (5,4),
+  (4,5),
+  (4,2),
+  (2,2);
+
+go 
+
+INSERT INTO purchases(clientid,date_purchase,number_confirmation,number_nf,payment_type,productid,purchase_status,purchase_values,storeid)
+VALUES
+  (4,'2007-07-29 05:18:13',73167,88054,3,2,1,13123,2),
+  (4,'2008-02-28 11:01:07',94728,34133,2,4,2,66131,5),
+  (5,'2018-08-14 00:32:06',89999,66492,3,3,1,71919,4),
+  (2,'2016-12-08 21:46:43',63172,42689,2,5,1,89760,4),
+  (2,'2018-11-12 13:09:09',92463,34242,4,5,2,8398,2)

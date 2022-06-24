@@ -1,21 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "mp2hYBZDl6dhMcJqFleSejS2dDIzFKycqwxO0ms/a9/oatIZx61Qhh4jae6cnHmI3yVzl0V/wt3c/RH8ZK42XA==",
+  "dgSpecHash": "mkCjryA9DHaE5vWeb6N73LmhiHsXDDbNAGmpcnwhoUQdXZ4jtZgMGwSmsJOHxGAyOczAeVLYtH9pQ6jOMt3qJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\disrct\\Desktop\\repo\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
-=======
-  "dgSpecHash": "xMbnwDW04MuMzv1aefGXIxfILcrqZdfxHqIlFwlgFxrPdqr1OHzfZ1L5EGvNDR5i0Ac7B4yo8RJCkQ0jEyuNJg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
->>>>>>> 76e6a5277b75b83aca4339f464011578a423c598
+  "projectFilePath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\disrct\\Desktop\\AllanDesktop\\ProjetoC_SharpBack\\Interfaces\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Interfaces\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }

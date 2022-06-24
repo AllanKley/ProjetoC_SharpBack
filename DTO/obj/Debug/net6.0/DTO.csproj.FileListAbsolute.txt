@@ -61,3 +61,18 @@ C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\ref
 C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.pdb
 C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\ref\DTO.dll
 >>>>>>> 76e6a5277b75b83aca4339f464011578a423c598
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.deps.json
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\ref\DTO.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.pdb
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DAO.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DAO.pdb
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.csproj.CopyComplete
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\ref\DTO.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.pdb

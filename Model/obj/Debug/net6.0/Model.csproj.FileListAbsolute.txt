@@ -85,3 +85,24 @@ C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Model\obj\Debug\net6.0\r
 C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.pdb
 C:\Users\disrct\Desktop\AllanDesktop\ProjetoC_SharpBack\Model\obj\Debug\net6.0\ref\Model.dll
 >>>>>>> 76e6a5277b75b83aca4339f464011578a423c598
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Model.deps.json
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Model.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\bin\Debug\net6.0\ref\Model.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Model.pdb
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\bin\Debug\net6.0\DAO.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\bin\Debug\net6.0\DTO.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Enums.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Interfaces.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Enums.pdb
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Interfaces.pdb
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\bin\Debug\net6.0\DTO.pdb
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\bin\Debug\net6.0\DAO.pdb
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.csproj.AssemblyReference.cache
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.AssemblyInfoInputs.cache
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.AssemblyInfo.cs
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.csproj.CopyComplete
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\ref\Model.dll
+C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.pdb
