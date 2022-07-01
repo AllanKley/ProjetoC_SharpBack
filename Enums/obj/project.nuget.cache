@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lJq3UaE9oTV7o/GOH+qQi8+7O0wsAD2IhCrVRUiqjY6c9DbyWEVFAJGYfQhTU53pPF8DcdfOoooLDK3Fk5/teg==",
+  "dgSpecHash": "6AAzUMa5YjihotJwSzYX3qbpHTMBSbTcJb6AJiBbViyyv/+iuO5HaLxDXBCKy3ctMePfRW3zit75x9sXztsDZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
+  "projectFilePath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Enums\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

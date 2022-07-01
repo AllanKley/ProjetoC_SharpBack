@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mkCjryA9DHaE5vWeb6N73LmhiHsXDDbNAGmpcnwhoUQdXZ4jtZgMGwSmsJOHxGAyOczAeVLYtH9pQ6jOMt3qJQ==",
+  "dgSpecHash": "oTqJyEIGwlZfObCRk6eZ6cEcqwXXQXWQNFTfeTw6kCKoNND4CTf7tFnwRW7ikuQhe69Ex0HXXZB7xvh8MKJEsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
+  "projectFilePath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Interfaces\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

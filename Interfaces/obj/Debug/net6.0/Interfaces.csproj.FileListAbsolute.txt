@@ -61,3 +61,15 @@ C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\In
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\ref\Interfaces.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.pdb
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.deps.json
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.dll
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.pdb
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.csproj.AssemblyReference.cache
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfoInputs.cache
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfo.cs
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.dll
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\refint\Interfaces.dll
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.pdb
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\ref\Interfaces.dll
