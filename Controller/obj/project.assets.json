@@ -2957,11 +2957,18 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\GRV2CT\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\kla1ct\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+>>>>>>> b7532e93e89d1efeea0f08bffc9791e87ca2a357
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Controller\\Controller.csproj",
       "projectName": "Controller",
       "projectPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Controller\\Controller.csproj",
@@ -2971,6 +2978,23 @@
       "configFilePaths": [
         "C:\\Users\\GRV2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+      "projectUniqueName": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Controller\\Controller.csproj",
+      "projectName": "Controller",
+      "projectPath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Controller\\Controller.csproj",
+      "packagesPath": "C:\\Users\\kla1ct\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Controller\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\kla1ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+>>>>>>> b7532e93e89d1efeea0f08bffc9791e87ca2a357
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2983,11 +3007,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\DTO\\DTO.csproj": {
               "projectPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\DTO\\DTO.csproj"
             },
             "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Model\\Model.csproj": {
               "projectPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Model\\Model.csproj"
+=======
+            "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\DTO\\DTO.csproj"
+            },
+            "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Model\\Model.csproj"
+>>>>>>> b7532e93e89d1efeea0f08bffc9791e87ca2a357
             }
           }
         }

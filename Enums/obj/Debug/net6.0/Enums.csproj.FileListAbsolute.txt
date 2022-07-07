@@ -61,6 +61,7 @@ C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.c
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\ref\Enums.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.pdb
+<<<<<<< HEAD
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Enums\bin\Debug\net6.0\Enums.deps.json
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Enums\bin\Debug\net6.0\Enums.dll
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Enums\bin\Debug\net6.0\Enums.pdb
@@ -73,3 +74,29 @@ C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\En
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\refint\Enums.dll
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.pdb
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\ref\Enums.dll
+=======
+U:\Allan Kley\ProjetoC_SharpBack\Enums\bin\Debug\net6.0\Enums.deps.json
+U:\Allan Kley\ProjetoC_SharpBack\Enums\bin\Debug\net6.0\Enums.dll
+U:\Allan Kley\ProjetoC_SharpBack\Enums\bin\Debug\net6.0\Enums.pdb
+U:\Allan Kley\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.csproj.AssemblyReference.cache
+U:\Allan Kley\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.GeneratedMSBuildEditorConfig.editorconfig
+U:\Allan Kley\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.AssemblyInfoInputs.cache
+U:\Allan Kley\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.AssemblyInfo.cs
+U:\Allan Kley\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.csproj.CoreCompileInputs.cache
+U:\Allan Kley\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.dll
+U:\Allan Kley\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\refint\Enums.dll
+U:\Allan Kley\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.pdb
+U:\Allan Kley\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\ref\Enums.dll
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Enums\bin\Debug\net6.0\Enums.deps.json
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Enums\bin\Debug\net6.0\Enums.dll
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Enums\bin\Debug\net6.0\Enums.pdb
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.csproj.AssemblyReference.cache
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.AssemblyInfoInputs.cache
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.AssemblyInfo.cs
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.csproj.CoreCompileInputs.cache
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.dll
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\refint\Enums.dll
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.pdb
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\ref\Enums.dll
+>>>>>>> b7532e93e89d1efeea0f08bffc9791e87ca2a357

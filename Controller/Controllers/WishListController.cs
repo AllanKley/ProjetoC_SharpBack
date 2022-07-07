@@ -39,6 +39,4 @@ public class WishListController : ControllerBase
         var response = Model.WishList.deleteProduct(idwishlist,ClientId);
         return response;
     }
-
-
 }

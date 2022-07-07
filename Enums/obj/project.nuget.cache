@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "6AAzUMa5YjihotJwSzYX3qbpHTMBSbTcJb6AJiBbViyyv/+iuO5HaLxDXBCKy3ctMePfRW3zit75x9sXztsDZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
+=======
+  "dgSpecHash": "7CjYjw42INUXn39w900xtcgDoF3XJx70MlFfbDL2EzgASH/2JA+Xmh3Ja6iv44+UodGI5SHPjyc1nSg8Uz2m5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
+>>>>>>> b7532e93e89d1efeea0f08bffc9791e87ca2a357
   "expectedPackageFiles": [],
   "logs": []
 }
