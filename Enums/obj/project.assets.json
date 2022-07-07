@@ -8,20 +8,28 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\vinic\\.nuget\\packages\\": {}
+    "C:\\Users\\kla1ct\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
+      "projectUniqueName": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
       "projectName": "Enums",
-      "projectPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
-      "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Enums\\obj\\",
+      "projectPath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
+      "packagesPath": "C:\\Users\\kla1ct\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Enums\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\kla1ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -60,16 +68,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Enums\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

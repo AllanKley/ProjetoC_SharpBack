@@ -76,3 +76,33 @@ C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.cspro
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\ref\DTO.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.pdb
+U:\Allan Kley\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.deps.json
+U:\Allan Kley\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.dll
+U:\Allan Kley\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.pdb
+U:\Allan Kley\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DAO.dll
+U:\Allan Kley\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DAO.pdb
+U:\Allan Kley\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+U:\Allan Kley\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+U:\Allan Kley\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+U:\Allan Kley\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+U:\Allan Kley\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+U:\Allan Kley\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.csproj.CopyComplete
+U:\Allan Kley\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.dll
+U:\Allan Kley\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\refint\DTO.dll
+U:\Allan Kley\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.pdb
+U:\Allan Kley\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\ref\DTO.dll
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.deps.json
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.dll
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.pdb
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DAO.dll
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DAO.pdb
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.csproj.CopyComplete
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.dll
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\refint\DTO.dll
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.pdb
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\ref\DTO.dll

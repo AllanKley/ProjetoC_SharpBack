@@ -26,7 +26,7 @@ public class WishList : IValidateDataObject, IDataController<WishListDTO, WishLi
         {
             var wishLists = context.wishlists.Include(p => p.client).Include(p => p.stocks)
             .Include(p => p.stocks.product).Include(p => p.stocks.store).Where(i => i.client.id == IdClient);
-
+            Console.WriteLine("aaa");
             var responseproducts = new List<WishListResponseDTO>();
             foreach (var item in wishLists)
             {
@@ -73,6 +73,7 @@ public class WishList : IValidateDataObject, IDataController<WishListDTO, WishLi
             .FirstOrDefault(w => w.id == id && w.client.id == ClientId);
             context.wishlists.Remove(wishList);
             context.SaveChanges();
+            Console.WriteLine("aaaaaaaaaa");
             return "sucess";
         }
     }

@@ -183,6 +183,28 @@ public class Product : IValidateDataObject, IDataController<ProductDTO, Product>
         }
     }
 
+    public static object getProductById(int id){
+          using(var context = new DAOContext()){
+            var stocks = context.stocks.Include(i=> i.store).Include(i=>i.product).FirstOrDefault(x=> x.product.id == id);
+            var TransitionDAO = new DTO.ProductResponseDTO();
+
+           
+            TransitionDAO.Id = stocks.product.id;
+            TransitionDAO.bar_code = stocks.product.bar_code;
+            TransitionDAO.name = stocks.product.name;
+            TransitionDAO.image = stocks.product.image;
+            TransitionDAO.description = stocks.product.description;
+            TransitionDAO.Quantity = stocks.quantity;
+            TransitionDAO.Unit_price = stocks.unit_price;  
+            TransitionDAO.CNPJ = stocks.store.CNPJ;
+            TransitionDAO.IdStocks = stocks.id;
+            
+            return TransitionDAO;
+        }
+
+    }
+
+
     public ProductDTO convertModelToDTO()
     {
         var productDTO = new ProductDTO();
@@ -197,13 +219,6 @@ public class Product : IValidateDataObject, IDataController<ProductDTO, Product>
     }
 
 
-    public static object getProductById(int id){
-          using(var context = new DAOContext()){
-            var response = context.stocks.Include(i=> i.store).Include(i=>i.product).FirstOrDefault(x=> x.product.id == id);
-            return response;
-        }
-
-    }
 
 
     public void setName(String name) { this.name = name; }

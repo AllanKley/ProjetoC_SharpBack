@@ -61,3 +61,27 @@ C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\In
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\ref\Interfaces.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.pdb
+U:\Allan Kley\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.deps.json
+U:\Allan Kley\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.dll
+U:\Allan Kley\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.pdb
+U:\Allan Kley\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.csproj.AssemblyReference.cache
+U:\Allan Kley\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+U:\Allan Kley\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfoInputs.cache
+U:\Allan Kley\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfo.cs
+U:\Allan Kley\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.csproj.CoreCompileInputs.cache
+U:\Allan Kley\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.dll
+U:\Allan Kley\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\refint\Interfaces.dll
+U:\Allan Kley\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.pdb
+U:\Allan Kley\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\ref\Interfaces.dll
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.deps.json
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.dll
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Interfaces\bin\Debug\net6.0\Interfaces.pdb
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.csproj.AssemblyReference.cache
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfoInputs.cache
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.AssemblyInfo.cs
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.dll
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\refint\Interfaces.dll
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\Interfaces.pdb
+C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Interfaces\obj\Debug\net6.0\ref\Interfaces.dll
