@@ -10,7 +10,9 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
     private Guid uuid = Guid.NewGuid();
     public List<OwnerDTO> ownerDTO = new List<OwnerDTO>();
     private Owner(Address address) { this.address = address; }
+     private Owner(){
 
+     }
 
     public static OwnerResponseDTO ConvertDaoToDTO(DAO.Owner OwnerDAO)
     {
@@ -49,8 +51,13 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
     }
 
     public static Owner convertDTOToModel(OwnerDTO obj)
-    {
-        var owner = new Owner(Address.convertDTOToModel(obj.address));
+    {   var owner =  new Owner();
+        if(obj.address != null){
+            owner.address = Address.convertDTOToModel(obj.address);
+        }
+        else{
+            owner.address = null;
+        }
         owner.name = obj.name;
         owner.date_of_birth = obj.date_of_birth;
         owner.document = obj.document;

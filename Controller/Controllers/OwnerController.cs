@@ -29,7 +29,7 @@ public class OwnerController : ControllerBase
 
         return new
         {
-            response = "salvou no banco"
+            response = id
         };
     }
 
