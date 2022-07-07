@@ -25,11 +25,11 @@ public class OwnerController : ControllerBase
     public object registerOwner([FromBody] OwnerDTO owner)
     {
         var ownerModel = Model.Owner.convertDTOToModel(owner);
-        int id = ownerModel.save();
+        var document  = ownerModel.save();
 
         return new
         {
-            response = id
+            response = document
         };
     }
 

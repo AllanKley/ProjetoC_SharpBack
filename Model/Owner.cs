@@ -73,9 +73,9 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
     {
 
     }
-    public int save()
+    public string save()
     {
-        var id = 0;
+        var document = "";
 
         using (var context = new DAOContext())
         {
@@ -108,10 +108,10 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
             context.SaveChanges();
 
 
-            id = owner.id;
+            document = owner.document;
 
         }
-        return id;
+        return document;
     }
 
     public void update(OwnerDTO obj)
@@ -121,7 +121,7 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
 
     public OwnerDTO findById(int id)
     {
-
+        
         return new OwnerDTO();
     }
 

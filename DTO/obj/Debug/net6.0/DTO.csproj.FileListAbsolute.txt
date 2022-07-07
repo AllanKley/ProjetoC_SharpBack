@@ -76,7 +76,6 @@ C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.cspro
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\ref\DTO.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.pdb
-<<<<<<< HEAD
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.deps.json
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.dll
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.pdb
@@ -92,7 +91,6 @@ C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\refint\DTO.dll
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.pdb
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\ref\DTO.dll
-=======
 U:\Allan Kley\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.deps.json
 U:\Allan Kley\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.dll
 U:\Allan Kley\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.pdb

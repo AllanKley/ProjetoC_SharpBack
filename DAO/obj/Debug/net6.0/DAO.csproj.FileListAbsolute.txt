@@ -61,7 +61,6 @@ C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\DAO.cspro
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\DAO.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\ref\DAO.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\DAO.pdb
-<<<<<<< HEAD
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DAO\bin\Debug\net6.0\DAO.deps.json
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DAO\bin\Debug\net6.0\DAO.dll
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DAO\bin\Debug\net6.0\DAO.pdb
@@ -74,7 +73,6 @@ C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\DAO.
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\refint\DAO.dll
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\DAO.pdb
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\ref\DAO.dll
-=======
 U:\Allan Kley\ProjetoC_SharpBack\DAO\bin\Debug\net6.0\DAO.deps.json
 U:\Allan Kley\ProjetoC_SharpBack\DAO\bin\Debug\net6.0\DAO.dll
 U:\Allan Kley\ProjetoC_SharpBack\DAO\bin\Debug\net6.0\DAO.pdb

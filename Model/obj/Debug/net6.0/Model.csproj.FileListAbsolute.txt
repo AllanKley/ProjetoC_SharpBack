@@ -106,7 +106,6 @@ C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.c
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\ref\Model.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.pdb
-<<<<<<< HEAD
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Model.deps.json
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Model.dll
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Model.pdb
@@ -128,7 +127,6 @@ C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Mo
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\obj\Debug\net6.0\refint\Model.dll
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.pdb
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\obj\Debug\net6.0\ref\Model.dll
-=======
 U:\Allan Kley\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Model.deps.json
 U:\Allan Kley\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Model.dll
 U:\Allan Kley\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Model.pdb

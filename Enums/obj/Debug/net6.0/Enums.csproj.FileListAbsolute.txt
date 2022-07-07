@@ -61,7 +61,6 @@ C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.c
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\ref\Enums.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.pdb
-<<<<<<< HEAD
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Enums\bin\Debug\net6.0\Enums.deps.json
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Enums\bin\Debug\net6.0\Enums.dll
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Enums\bin\Debug\net6.0\Enums.pdb
@@ -74,7 +73,6 @@ C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\En
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\refint\Enums.dll
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\Enums.pdb
 C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Enums\obj\Debug\net6.0\ref\Enums.dll
-=======
 U:\Allan Kley\ProjetoC_SharpBack\Enums\bin\Debug\net6.0\Enums.deps.json
 U:\Allan Kley\ProjetoC_SharpBack\Enums\bin\Debug\net6.0\Enums.dll
 U:\Allan Kley\ProjetoC_SharpBack\Enums\bin\Debug\net6.0\Enums.pdb

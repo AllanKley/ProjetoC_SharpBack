@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Enums\\Enums.csproj": {}
   },
   "projects": {
@@ -13,34 +12,10 @@
         "projectPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
         "packagesPath": "C:\\Users\\GRV2CT\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Enums\\obj\\",
-=======
-    "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Enums\\Enums.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Enums\\Enums.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
-        "projectName": "Enums",
-        "projectPath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Enums\\Enums.csproj",
-        "packagesPath": "C:\\Users\\kla1ct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Enums\\obj\\",
->>>>>>> b7532e93e89d1efeea0f08bffc9791e87ca2a357
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\GRV2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
-          "C:\\Users\\kla1ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
->>>>>>> b7532e93e89d1efeea0f08bffc9791e87ca2a357
         ],
         "originalTargetFrameworks": [
           "net6.0"
