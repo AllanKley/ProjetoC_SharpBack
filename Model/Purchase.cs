@@ -57,7 +57,7 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
         var id = 0;
         using (var context = new DAOContext())
         {
-
+            Console.WriteLine(this.getProducts().Count());
             var clientDAO =  context.Client.FirstOrDefault(c => c.document == this.GetClient().getDocument());
             var storeDAO = context.stores.FirstOrDefault(s =>s.id == this.GetStore().getID());
             var productsDAO = context.products.FirstOrDefault(x=> x.id == this.getProducts()[0].getID());

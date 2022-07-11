@@ -198,6 +198,7 @@ public class Product : IValidateDataObject, IDataController<ProductDTO, Product>
             TransitionDAO.Unit_price = stocks.unit_price;  
             TransitionDAO.CNPJ = stocks.store.CNPJ;
             TransitionDAO.IdStocks = stocks.id;
+            TransitionDAO.StoreCNPJ = int.Parse(stocks.store.CNPJ);
             
             return TransitionDAO;
         }
