@@ -121,7 +121,7 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
                 sale.ProductName = item.product.name;
                 sale.DataOfPurchase = item.date_purchase;
                 sale.PurchaseAmount  = item.purchase_values;
-                sale.StoreName  = item.store.name ;
+                sale.ClientName  = item.client.name ;
                 sales.Add(sale);
             }
 

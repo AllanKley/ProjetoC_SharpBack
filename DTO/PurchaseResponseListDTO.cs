@@ -5,5 +5,5 @@ public class PurchaseResponseListDTO
   public string ProductName;
   public DateTime DataOfPurchase;
   public double PurchaseAmount;
-  public string StoreName;
+  public string ClientName;
 }
