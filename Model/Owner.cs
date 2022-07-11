@@ -10,7 +10,7 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
     private Guid uuid = Guid.NewGuid();
     public List<OwnerDTO> ownerDTO = new List<OwnerDTO>();
     private Owner(Address address) { this.address = address; }
-     private Owner(){
+    public Owner(){
 
      }
 

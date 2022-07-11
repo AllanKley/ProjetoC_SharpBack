@@ -111,18 +111,14 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
         }
     }
 
-    public static List<object> FindStorePurchase(int idDTO){
-
+    public static object FindStoreSales(string CNPJ){
+        Console.WriteLine("entrou aq");
          using (var context = new DAOContext())
         {
-            var storeDAO = context.purchases.Include(i => i.store).Include(i => i.product).Include(i => i.store.owner).Where(o => o.store.id == idDTO);
-
-            List<object> purchases = new List<object>();
-            foreach(object purchase in storeDAO){
-                purchases.Add(purchase);
-            }
-
-            return purchases;
+            var store = Store.findStore(CNPJ);
+            var teste = context.purchases.Include(q => q.product).Include( q=> q.store).Include(q=> q.client).Where( q=> q.store.id == 5);
+            // var sales = context.purchases.Include(i=> i.product).Include(q => q.store).Where(q => q.store.CNPJ == CNPJ);
+            return teste;
         }
     }
 

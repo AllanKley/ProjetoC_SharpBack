@@ -22,20 +22,14 @@ public class PurchaseController : ControllerBase
         return Purchase;
     }
 
-
-
-
-
-    [HttpGet]
-    [Route("get/store/{id}")]
-    public object getStorePurchase(int id){
-
-        var Purchase = Model.Purchase.FindStorePurchase(id);
     
-        return Purchase;
+    [HttpGet]
+    [Route("get/store/sales/{CNPJ}")]
+    public object getSalesStore(string CNPJ){
+
+        var sales = Model.Purchase.FindStoreSales(CNPJ);
+        return sales;
     }
-
-
 
     [HttpPost]
     [Route("register")]
