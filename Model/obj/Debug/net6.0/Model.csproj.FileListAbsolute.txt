@@ -106,6 +106,27 @@ C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.c
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\ref\Model.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.pdb
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Model.deps.json
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Model.dll
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Model.pdb
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\bin\Debug\net6.0\DAO.dll
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\bin\Debug\net6.0\DTO.dll
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Enums.dll
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Interfaces.dll
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Enums.pdb
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Interfaces.pdb
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\bin\Debug\net6.0\DTO.pdb
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\bin\Debug\net6.0\DAO.pdb
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.csproj.AssemblyReference.cache
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.AssemblyInfoInputs.cache
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.AssemblyInfo.cs
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.csproj.CopyComplete
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.dll
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\obj\Debug\net6.0\refint\Model.dll
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.pdb
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\Model\obj\Debug\net6.0\ref\Model.dll
 U:\Allan Kley\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Model.deps.json
 U:\Allan Kley\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Model.dll
 U:\Allan Kley\ProjetoC_SharpBack\Model\bin\Debug\net6.0\Model.pdb
@@ -148,3 +169,4 @@ C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.dll
 C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Model\obj\Debug\net6.0\refint\Model.dll
 C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Model\obj\Debug\net6.0\Model.pdb
 C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\Model\obj\Debug\net6.0\ref\Model.dll
+>>>>>>> b7532e93e89d1efeea0f08bffc9791e87ca2a357

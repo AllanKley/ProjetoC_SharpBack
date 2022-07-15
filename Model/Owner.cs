@@ -10,11 +10,13 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
     private Guid uuid = Guid.NewGuid();
     public List<OwnerDTO> ownerDTO = new List<OwnerDTO>();
     private Owner(Address address) { this.address = address; }
+     private Owner(){
 
+     }
 
-    public static OwnerDTO ConvertDaoToDTO(DAO.Owner OwnerDAO)
+    public static OwnerResponseDTO ConvertDaoToDTO(DAO.Owner OwnerDAO)
     {
-        var OwnerDTO = new OwnerDTO();
+        var OwnerDTO = new OwnerResponseDTO();
         OwnerDTO.name = OwnerDAO.name;
         OwnerDTO.date_of_birth = OwnerDAO.date_of_birth;
         OwnerDTO.document = OwnerDAO.document;
@@ -22,15 +24,40 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
         OwnerDTO.phone = OwnerDAO.phone;
         OwnerDTO.login = OwnerDAO.login;
         OwnerDTO.passwd = OwnerDAO.passwd;
+        OwnerDTO.Id = OwnerDAO.id;
 
         OwnerDTO.address = Address.ConvertDAOToDTO(OwnerDAO.address);
 
         return OwnerDTO;
     }
 
-    public static Owner convertDTOToModel(OwnerDTO obj)
+    public static OwnerResponseDTO CheckLogin(string login, string passwd)
     {
-        var owner = new Owner(Address.convertDTOToModel(obj.address));
+        using (var context = new DAOContext())
+        {
+            var ownerDAO = context.owners.Include(i=> i.address).FirstOrDefault(q => q.login == login && q.passwd == passwd);
+            if (ownerDAO != null)
+            {
+                var OwnerDTO = Owner.ConvertDaoToDTO(ownerDAO);
+                return OwnerDTO;
+            }
+            else
+            {
+                return null;
+            }
+
+        }
+
+    }
+
+    public static Owner convertDTOToModel(OwnerDTO obj)
+    {   var owner =  new Owner();
+        if(obj.address != null){
+            owner.address = Address.convertDTOToModel(obj.address);
+        }
+        else{
+            owner.address = null;
+        }
         owner.name = obj.name;
         owner.date_of_birth = obj.date_of_birth;
         owner.document = obj.document;
@@ -42,13 +69,34 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
         return owner;
     }
 
+    public static Owner find(int id)
+    {
+        using (var context = new DAOContext())
+        {
+           
+            var ownerDAO = context.owners.Include(i => i.address).FirstOrDefault(o => o.id == id);
+            var address = Address.convertDTOToModel(Address.ConvertDAOToDTO(ownerDAO.address));
+
+            return new Owner{
+                name = ownerDAO.name,
+                email = ownerDAO.email,
+                date_of_birth = ownerDAO.date_of_birth,
+                document = ownerDAO.document,
+                phone = ownerDAO.phone,
+                login = ownerDAO.login,
+                address = address,
+                passwd = ownerDAO.passwd
+            };
+        }
+    }
+
     public void delete()
     {
 
     }
-    public int save()
+    public string save()
     {
-        var id = 0;
+        var document = "";
 
         using (var context = new DAOContext())
         {
@@ -81,10 +129,10 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
             context.SaveChanges();
 
 
-            id = owner.id;
+            document = owner.document;
 
         }
-        return id;
+        return document;
     }
 
     public void update(OwnerDTO obj)
@@ -94,7 +142,7 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
 
     public OwnerDTO findById(int id)
     {
-
+        
         return new OwnerDTO();
     }
 
@@ -116,9 +164,9 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
                 login = ownerDAO.login,
                 address = ownerDAO.address,
                 passwd = ownerDAO.passwd
-        };
+            };
+        }
     }
-}
 
     public List<OwnerDTO> getAll()
     {

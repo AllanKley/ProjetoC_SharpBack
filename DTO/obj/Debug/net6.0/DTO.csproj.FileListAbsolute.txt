@@ -76,6 +76,21 @@ C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.cspro
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\ref\DTO.dll
 C:\Users\vinic\Desktop\projeto\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.pdb
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.deps.json
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.dll
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.pdb
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DAO.dll
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DAO.pdb
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.csproj.CopyComplete
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.dll
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\refint\DTO.dll
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.pdb
+C:\Users\GRV2CT\Desktop\repositorio\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\ref\DTO.dll
 U:\Allan Kley\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.deps.json
 U:\Allan Kley\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.dll
 U:\Allan Kley\ProjetoC_SharpBack\DTO\bin\Debug\net6.0\DTO.pdb
@@ -106,3 +121,4 @@ C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.dll
 C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\refint\DTO.dll
 C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\DTO.pdb
 C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DTO\obj\Debug\net6.0\ref\DTO.dll
+>>>>>>> b7532e93e89d1efeea0f08bffc9791e87ca2a357

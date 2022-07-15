@@ -39,8 +39,8 @@ public class StoreController : ControllerBase
     public object registerStore([FromBody]StoreDTO store){
 
         var storeModel = Model.Store.convertDTOToModel(store);
-
-        storeModel.save(Model.Store.GetOwnerId(Model.Owner.convertDTOToModel(store.owner)));
+        var ownerDTO = Model.Owner.convertDTOToModel(store.owner);
+        storeModel.save(Model.Store.GetOwnerId(ownerDTO));
 
         return new {
                 response = "salvou no banco"

@@ -1858,20 +1858,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vinic\\.nuget\\packages\\": {}
+    "C:\\Users\\kla1ct\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\console\\console.csproj",
+      "projectUniqueName": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\console\\console.csproj",
       "projectName": "console",
-      "projectPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\console\\console.csproj",
-      "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\console\\obj\\",
+      "projectPath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\console\\console.csproj",
+      "packagesPath": "C:\\Users\\kla1ct\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\console\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\kla1ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1884,14 +1892,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
-              "projectPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DAO\\DAO.csproj"
+            "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
+              "projectPath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj"
             },
-            "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\DTO\\DTO.csproj"
+            "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\DTO\\DTO.csproj"
             },
-            "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\vinic\\Desktop\\projeto\\ProjetoC_SharpBack\\Model\\Model.csproj"
+            "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Model\\Model.csproj"
             }
           }
         }
@@ -1920,7 +1928,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

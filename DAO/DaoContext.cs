@@ -17,8 +17,9 @@ public class DAOContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        //optionsBuilder.UseSqlServer("Data Source= DESKTOP-S4T02R7\\SQLEXPRESS" + "; Initial Catalog=MarketPlace; Integrated Security=True");
+        // optionsBuilder.UseSqlServer("Data Source= DESKTOP-S4T02R7\\SQLEXPRESS" + "; Initial Catalog=MarketPlace; Integrated Security=True");
         optionsBuilder.UseSqlServer("Data Source="+ Environment.MachineName + ";Initial Catalog=MarketPlace; Integrated Security=True");
+        
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
