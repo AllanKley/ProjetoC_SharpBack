@@ -16,7 +16,7 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
     private Store store;
 
     private List<PurchaseDTO> purchaseDTO = new List<PurchaseDTO>();
-    private List<Product> products = new List<Product>();
+    private Product products ;
 
     public void updateStatus(int PurchaseStatusEnum)
     {
@@ -26,7 +26,8 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
     public static Purchase convertDTOToModel(PurchaseDTO obj)
     {
         var storeModel = Model.Store.findStore(obj.store.CNPJ);
-        var products = new List<Model.Product>();
+        // var products = obj.productsDTO;
+        var products = Model.Product.convertDTOToModel(obj.productsDTO);
 
         var purchase = new Purchase();
         purchase.client = Client.convertDTOToModel(obj.client);
@@ -37,10 +38,6 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
         purchase.number_confirmation = obj.number_confirmation;
         purchase.number_nf = obj.number_nf;
         purchase.setStore(storeModel);
-        
-        foreach(ProductDTO productDTO in obj.productsDTO){
-            products.Add(Model.Product.convertDTOToModel(productDTO));
-        }
         purchase.setProducts(products);
 
         return purchase;
@@ -60,7 +57,7 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
             Console.WriteLine(this.getProducts().Count());
             var clientDAO =  context.Client.FirstOrDefault(c => c.document == this.GetClient().getDocument());
             var storeDAO = context.stores.FirstOrDefault(s =>s.id == this.GetStore().getID());
-            var productsDAO = context.products.FirstOrDefault(x=> x.id == this.getProducts()[0].getID());
+            var productsDAO = context.products.FirstOrDefault(x=> x.id == this.getProducts().getID());
             
             var purchase = new DAO.Purchase {
                 date_purchase = this.date_purchase,
@@ -111,18 +108,24 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
         }
     }
 
-    public static List<object> FindStorePurchase(int idDTO){
+    public static List<PurchaseResponseListDTO> FindStoreSales(string CNPJ){
+        Console.WriteLine("entrou aq");
+        using (var context = new DAOContext()){
+            var query = context.purchases.Include( p=> p.client).Include(p=> p.product).Include(p=>p.store).Where( p=>p.store.CNPJ == CNPJ);
 
-         using (var context = new DAOContext())
-        {
-            var storeDAO = context.purchases.Include(i => i.store).Include(i => i.product).Include(i => i.store.owner).Where(o => o.store.id == idDTO);
-
-            List<object> purchases = new List<object>();
-            foreach(object purchase in storeDAO){
-                purchases.Add(purchase);
+            var sales = new List<PurchaseResponseListDTO>();
+            foreach (var item in query)
+            {
+                var sale = new PurchaseResponseListDTO();
+                sale.ID = item.id;
+                sale.ProductName = item.product.name;
+                sale.DataOfPurchase = item.date_purchase;
+                sale.PurchaseAmount  = item.purchase_values;
+                sale.ClientName  = item.client.name ;
+                sales.Add(sale);
             }
 
-            return purchases;
+            return sales;
         }
     }
 
@@ -177,8 +180,8 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
     public void setStore(Store stores) { this.store = stores; }
 
 
-    public List<Product> getProducts() { return this.products; }
-    public void setProducts(List<Product> products) { this.products = products; }
+    public Product getProducts() { return this.products; }
+    public void setProducts(Product products) { this.products = products; }
 
 
     public int getPurchaseStatus() => purchase_status;
