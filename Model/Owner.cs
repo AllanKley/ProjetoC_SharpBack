@@ -69,6 +69,27 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
         return owner;
     }
 
+    public static Owner find(int id)
+    {
+        using (var context = new DAOContext())
+        {
+           
+            var ownerDAO = context.owners.Include(i => i.address).FirstOrDefault(o => o.id == id);
+            var address = Address.convertDTOToModel(Address.ConvertDAOToDTO(ownerDAO.address));
+
+            return new Owner{
+                name = ownerDAO.name,
+                email = ownerDAO.email,
+                date_of_birth = ownerDAO.date_of_birth,
+                document = ownerDAO.document,
+                phone = ownerDAO.phone,
+                login = ownerDAO.login,
+                address = address,
+                passwd = ownerDAO.passwd
+            };
+        }
+    }
+
     public void delete()
     {
 

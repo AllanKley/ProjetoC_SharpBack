@@ -34,6 +34,28 @@ public class OwnerController : ControllerBase
     }
 
 
+    [HttpGet]
+    [Route("get")]
+    public IActionResult getInformations()
+    {
+        var OwnerId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
+        var owner = Model.Owner.find(OwnerId);
+        
+        var clientobj = new{
+            name = owner.getName(),
+            email = owner.getEmail(),
+            date_of_birth = owner.getDateOfBirth(),
+            document = owner.getDocument(),
+            phone = owner.getPhone(),
+            login = owner.getLogin(),
+            address = owner.getAddress(),
+            passwd = owner.getPasswd()
+        };
+
+        return new ObjectResult(clientobj);
+    }
+
+
 
     [HttpGet]
     [Route("get/{document}")]
@@ -58,7 +80,8 @@ public class OwnerController : ControllerBase
                 new Claim(JwtRegisteredClaimNames.Iat,DateTime.UtcNow.ToString()),
                 new Claim("UserId", owner.Id.ToString()),
                 new Claim("UserName", owner.login.ToString()),
-                new Claim("Email", owner.email.ToString())
+                new Claim("Email", owner.email.ToString()),
+                new Claim("type", "owner")
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));

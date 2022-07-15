@@ -12,5 +12,14 @@ public class Lib
 
         return  int.Parse(jsonToken.Claims.First(claim => claim.Type == "UserId").Value);
     }
+
+    public static string GetTypeFromRequest(string TokenFromHead)
+    {
+        var SlicedToken = TokenFromHead.Substring(7, TokenFromHead.Length - 7);
+        var handler = new JwtSecurityTokenHandler();
+        var jsonToken = handler.ReadJwtToken(SlicedToken);
+
+        return  jsonToken.Claims.First(claim => claim.Type == "type").Value;
+    }
 }
 

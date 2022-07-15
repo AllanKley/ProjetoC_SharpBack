@@ -66,7 +66,15 @@ public class ClientController : ControllerBase
         return new ObjectResult(clientobj);
     }
 
-
+    [HttpGet]
+    [Route("test")]
+    public bool testIfClient()
+    {
+        var type = Lib.GetTypeFromRequest( Request.Headers["Authorization"].ToString());
+        if(type == "client") return true;
+        return false;
+    
+    }
 
     [HttpPost]
     [Route("login")]
@@ -81,7 +89,8 @@ public class ClientController : ControllerBase
                 new Claim(JwtRegisteredClaimNames.Iat,DateTime.UtcNow.ToString()),
                 new Claim("UserId", clientDTO.Id.ToString()),
                 new Claim("UserName", clientDTO.name.ToString()),
-                new Claim("Email", clientDTO.email.ToString())
+                new Claim("Email", clientDTO.email.ToString()),
+                new Claim("type", "client")
 
             };
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));

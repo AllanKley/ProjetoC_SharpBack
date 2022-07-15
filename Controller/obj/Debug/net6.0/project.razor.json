@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "FilePath": "c:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\Controller\\Controller.csproj",
+=======
   "FilePath": "c:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Controller\\Controller.csproj",
+>>>>>>> c67359bc00f60a66d2517c6c92f50f38715702be
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
