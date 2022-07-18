@@ -16,6 +16,7 @@ public class Product : IValidateDataObject, IDataController<ProductDTO, Product>
 
     public static Product convertDTOToModel(ProductDTO obj)
     {
+        
         var product = new Model.Product
         {
             name = obj.name,
@@ -130,6 +131,7 @@ public class Product : IValidateDataObject, IDataController<ProductDTO, Product>
         using (var context = new DAOContext())
         {
             var product = context.products.FirstOrDefault(p => p.bar_code == this.bar_code);
+            Console.WriteLine("Bar_code: ",this.bar_code);
             return product.id;
         }
     }
@@ -201,6 +203,15 @@ public class Product : IValidateDataObject, IDataController<ProductDTO, Product>
             TransitionDAO.StoreCNPJ = int.Parse(stocks.store.CNPJ);
             
             return TransitionDAO;
+        }
+
+    }
+
+    public static object getProductByBarCode(string barCode){
+          using(var context = new DAOContext()){
+            var product = context.products.FirstOrDefault(x=> x.bar_code == barCode);
+ 
+            return product;
         }
 
     }
