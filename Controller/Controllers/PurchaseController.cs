@@ -35,6 +35,8 @@ public class PurchaseController : ControllerBase
     [Route("register")]
     public object makePurchase([FromBody] PurchaseDTO purchase)
     {
+
+    
         var ClientId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
 
         var client = Model.Client.find(ClientId);

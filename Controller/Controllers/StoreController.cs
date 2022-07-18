@@ -32,7 +32,14 @@ public class StoreController : ControllerBase
     }
 
 
+    [HttpGet]
+    [Route("get/allByOwner/{document}")]
+    public List<object> getAllStoreByOwner(string document){
 
+        var allStore = Model.Store.findAllByOwner(document);
+
+        return allStore;
+    }
 
     [HttpPost]
     [Route("register")]

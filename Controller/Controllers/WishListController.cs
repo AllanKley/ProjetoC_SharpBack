@@ -17,7 +17,7 @@ public class WishListController : ControllerBase
     [Route("register")]
     public object addProductToWishList([FromBody]StocksRequestDTO stocksDTO){
         
-        var ClientId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
+        var ClientId = Lib.GetIdFromRequest(Request.Headers["Authorization"].ToString());
         var wishlist = new Model.WishList();
         var response = wishlist.save(stocksDTO.id, ClientId);
         return response;

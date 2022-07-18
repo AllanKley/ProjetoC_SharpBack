@@ -75,4 +75,15 @@ public class ProductController : ControllerBase
          Response.Headers.Add("Access-Control-Allow-Origin", "*");
         return retorno;
     }
+
+
+    [HttpGet]
+    [Route("getproductBarCode/{barCode}")]
+    public IActionResult getProductBarCOde(string barCode){
+        var response = Model.Product.getProductByBarCode(barCode);
+        
+        var  retorno = new ObjectResult(response);
+         Response.Headers.Add("Access-Control-Allow-Origin", "*");
+        return retorno;
+    }
 }
