@@ -1767,28 +1767,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kla1ct\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\GRV2CT\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj",
+      "projectUniqueName": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\DAO\\DAO.csproj",
       "projectName": "DAO",
-      "projectPath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\DAO\\DAO.csproj",
-      "packagesPath": "C:\\Users\\kla1ct\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kla1ct\\Desktop\\ProjetoC_SharpBack\\DAO\\obj\\",
+      "projectPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\DAO\\DAO.csproj",
+      "packagesPath": "C:\\Users\\GRV2CT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\DAO\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\kla1ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\GRV2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

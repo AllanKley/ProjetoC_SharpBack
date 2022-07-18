@@ -1,5 +1,5 @@
 using DTO;
-
+using Model;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Controller.Controllers;
@@ -53,6 +53,14 @@ public class PurchaseController : ControllerBase
         {
             response = "salvou on banco"
         };
+    }
+
+    [HttpGet]
+    [Route("get/purchase/{_SalesID}")]
+    public object getSalesDetails(int _SalesID){
+
+        var response = Purchase.getSalesDetails(_SalesID);
+        return response;
     }
 }
 

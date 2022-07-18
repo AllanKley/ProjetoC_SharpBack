@@ -16,7 +16,7 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
     private Store store;
 
     private List<PurchaseDTO> purchaseDTO = new List<PurchaseDTO>();
-    private Product products ;
+    private Product products;
 
     public void updateStatus(int PurchaseStatusEnum)
     {
@@ -54,12 +54,12 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
         var id = 0;
         using (var context = new DAOContext())
         {
-        
-            var clientDAO =  context.Client.FirstOrDefault(c => c.document == this.GetClient().getDocument());
-            var storeDAO = context.stores.FirstOrDefault(s =>s.id == this.GetStore().getID());
-            var productsDAO = context.products.FirstOrDefault(x=> x.id == this.getProducts().getID());
-            
-            var purchase = new DAO.Purchase {
+            var clientDAO = context.Client.FirstOrDefault(c => c.document == this.GetClient().getDocument());
+            var storeDAO = context.stores.FirstOrDefault(s => s.id == this.GetStore().getID());
+            var productsDAO = context.products.FirstOrDefault(x => x.id == this.getProducts().getID());
+
+            var purchase = new DAO.Purchase
+            {
                 date_purchase = this.date_purchase,
                 payment_type = this.payment_type,
                 purchase_status = this.purchase_status,
@@ -70,37 +70,41 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
                 store = storeDAO,
                 product = productsDAO
             };
-            
+
             context.purchases.Add(purchase);
             // context.Entry(purchase.client).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
             // context.Entry(purchase.store).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
             // context.Entry(purchase.product).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
             context.SaveChanges();
             id = purchase.id;
-            
-            
+
+
         };
         return id;
     }
 
-    public void update(PurchaseDTO obj){
+    public void update(PurchaseDTO obj)
+    {
 
     }
 
-    public PurchaseDTO findById(int id){
+    public PurchaseDTO findById(int id)
+    {
         return new PurchaseDTO();
     }
 
-    public static List<object> FindClientPurchase(int id){
+    public static List<object> FindClientPurchase(int id)
+    {
 
-         using (var context = new DAOContext())
+        using (var context = new DAOContext())
         {
 
             var purchaseDAO = context.purchases.Include(i => i.store).Include(i => i.product).Where(o => o.client.id == id);
 
             List<object> purchases = new List<object>();
-            
-            foreach(object purchase in purchaseDAO){
+
+            foreach (object purchase in purchaseDAO)
+            {
                 purchases.Add(purchase);
             }
 
@@ -108,10 +112,12 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
         }
     }
 
-    public static List<PurchaseResponseListDTO> FindStoreSales(string CNPJ){
+    public static List<PurchaseResponseListDTO> FindStoreSales(string CNPJ)
+    {
         Console.WriteLine("entrou aq");
-        using (var context = new DAOContext()){
-            var query = context.purchases.Include( p=> p.client).Include(p=> p.product).Include(p=>p.store).Where( p=>p.store.CNPJ == CNPJ);
+        using (var context = new DAOContext())
+        {
+            var query = context.purchases.Include(p => p.client).Include(p => p.product).Include(p => p.store).Where(p => p.store.CNPJ == CNPJ);
 
             var sales = new List<PurchaseResponseListDTO>();
             foreach (var item in query)
@@ -120,8 +126,8 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
                 sale.ID = item.id;
                 sale.ProductName = item.product.name;
                 sale.DataOfPurchase = item.date_purchase;
-                sale.PurchaseAmount  = item.purchase_values;
-                sale.ClientName  = item.client.name ;
+                sale.PurchaseAmount = item.purchase_values;
+                sale.ClientName = item.client.name;
                 sales.Add(sale);
             }
 
@@ -129,11 +135,13 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
         }
     }
 
-    public List<PurchaseDTO> getAll(){
+    public List<PurchaseDTO> getAll()
+    {
         return this.purchaseDTO;
     }
 
-    public PurchaseDTO convertModelToDTO(){
+    public PurchaseDTO convertModelToDTO()
+    {
         var purchaseDTO = new PurchaseDTO();
         purchaseDTO.data_purchase = this.date_purchase;
         purchaseDTO.payment_type = this.payment_type;
@@ -146,9 +154,39 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
         return purchaseDTO;
     }
 
+    public static object getSalesDetails(int _SalesID)
+    {
+        using var db = new DAOContext();
+        var query = db.purchases.Include(p => p.client).Include(p => p.product).FirstOrDefault(q => q.id == _SalesID);
+        var response = new
+        {
+            number_confirmation = query.number_confirmation,
+            payment_type = "" + (PaymentEnum)query.payment_type,
+            purchase_value = query.purchase_values,
+            purchase_status = "" + (PurchaseStatusEnum)query.purchase_status,
+            number_nf = query.number_nf,
+            date_purchase = query.date_purchase.ToString("yyyy/MM/dd"),
+            client = new
+            {
+                name = query.client.name,
+                email = query.client.email,
+                document = query.client.document,
+                phone = query.client.phone,
+            },
+            product = new
+            {
+                name = query.product.name,
+                image = query.product.image,
+            }
+
+        };
+        return response;
+
+    }
+
     public Boolean validateObject()
     {
-  
+
         if (this.getDataPurchase() == null) return false;
         if (this.getNumberConfirmation() == null) return false;
         if (this.getNumberNf() == null) return false;
@@ -162,7 +200,7 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
 
 
     public int getPaymentType() { return this.payment_type; }
-    public void setPaymentType(PaymentEnum payment_type) { this.payment_type = (int)payment_type; }
+    // public void setPaymentType(PaymentEnum payment_type) { this.payment_type = (int)payment_type; }
 
 
     public String getNumberConfirmation() { return this.number_confirmation; }
@@ -185,7 +223,7 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
 
 
     public int getPurchaseStatus() => purchase_status;
-    public void setPurchaseStatus(PurchaseStatusEnum purchase_status) { this.purchase_status = (int)purchase_status; }
+    // public void setPurchaseStatus(PurchaseStatusEnum purchase_status) { this.purchase_status = (int)purchase_status; }
 
 
     public double getPurchaseValues() => purchase_value;
