@@ -99,7 +99,7 @@ public class ClientController : ControllerBase
                 _configuration["Jwt:Issuer"],
                 _configuration["Jwt:Audience"],
                 claims,
-                expires: DateTime.UtcNow.AddMinutes(1),
+                expires: DateTime.UtcNow.AddMinutes(10),
                 signingCredentials:singIn);
                 Console.WriteLine(DateTime.Now.AddMinutes(1));
             return Ok(new JwtSecurityTokenHandler().WriteToken(token));
