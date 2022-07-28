@@ -2957,19 +2957,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vinic\\.nuget\\packages\\": {}
+    "C:\\Users\\GRV2CT\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\Controller\\Controller.csproj",
+      "projectUniqueName": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Controller\\Controller.csproj",
       "projectName": "Controller",
-      "projectPath": "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\Controller\\Controller.csproj",
-      "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\Controller\\obj\\",
+      "projectPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Controller\\Controller.csproj",
+      "packagesPath": "C:\\Users\\GRV2CT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Controller\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\GRV2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2983,11 +2983,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\DTO\\DTO.csproj"
+            "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\DTO\\DTO.csproj"
             },
-            "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\Model\\Model.csproj"
+            "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Model\\Model.csproj"
             }
           }
         }
@@ -3041,7 +3041,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   },

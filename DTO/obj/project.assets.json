@@ -1785,19 +1785,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vinic\\.nuget\\packages\\": {}
+    "C:\\Users\\GRV2CT\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
+      "projectUniqueName": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
       "projectName": "DTO",
-      "projectPath": "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
-      "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\DTO\\obj\\",
+      "projectPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\DTO\\DTO.csproj",
+      "packagesPath": "C:\\Users\\GRV2CT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\DTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\GRV2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1811,8 +1811,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
-              "projectPath": "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\DAO\\DAO.csproj"
+            "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\DAO\\DAO.csproj": {
+              "projectPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\DAO\\DAO.csproj"
             }
           }
         }
@@ -1841,7 +1841,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

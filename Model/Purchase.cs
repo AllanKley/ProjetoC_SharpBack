@@ -115,10 +115,11 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
     public static List<PurchaseResponseListDTO> FindStoreSales(string CNPJ)
     {
         Console.WriteLine("entrou aq");
+        Console.WriteLine(CNPJ);
         using (var context = new DAOContext())
         {
-            var query = context.purchases.Include(p => p.client).Include(p => p.product).Include(p => p.store).Where(p => p.store.CNPJ == CNPJ);
-
+            var query = context.purchases.Include(p => p.client).Include(p => p.product).Include(p => p.store).Where(p => p.store.CNPJ == CNPJ).ToList();
+            Console.WriteLine(query.Count);
             var sales = new List<PurchaseResponseListDTO>();
             foreach (var item in query)
             {
@@ -130,6 +131,7 @@ public class Purchase : IValidateDataObject, IDataController<PurchaseDTO, Purcha
                 sale.ClientName = item.client.name;
                 sales.Add(sale);
             }
+            Console.WriteLine(sales.Count);
 
             return sales;
         }

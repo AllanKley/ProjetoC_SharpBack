@@ -127,13 +127,13 @@ public class Store: IValidateDataObject, IDataController<StoreDTO, Store>
         };
     }
 
-    public static List<object> findAllByOwner(string document){
+    public static List<dynamic> findAllByOwner(string document){
     using (var context = new DAOContext())
         {
 
             var storeDAO = context.stores.Include(i => i.owner).Include(i => i.owner.address).Where(c => c.owner.document == document);
 
-            List<object> stores = new List<object>();
+            List<object> stores = new List<dynamic>();
             foreach(object store in storeDAO){
                 stores.Add(store);
             }

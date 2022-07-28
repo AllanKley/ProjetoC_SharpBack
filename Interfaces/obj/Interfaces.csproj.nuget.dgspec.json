@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj": {}
+    "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj": {
+    "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
-        "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinic\\Desktop\\Repos\\market\\ProjetoC_SharpBack\\Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Interfaces\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\GRV2CT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GRV2CT\\Desktop\\repositorio\\ProjetoC_SharpBack\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GRV2CT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
