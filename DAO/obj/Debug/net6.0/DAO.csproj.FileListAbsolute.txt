@@ -98,3 +98,15 @@ C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\refint\DAO.dll
 C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\DAO.pdb
 C:\Users\kla1ct\Desktop\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\ref\DAO.dll
 >>>>>>> b7532e93e89d1efeea0f08bffc9791e87ca2a357
+C:\Users\vinic\Desktop\Repos\market\ProjetoC_SharpBack\DAO\bin\Debug\net6.0\DAO.deps.json
+C:\Users\vinic\Desktop\Repos\market\ProjetoC_SharpBack\DAO\bin\Debug\net6.0\DAO.dll
+C:\Users\vinic\Desktop\Repos\market\ProjetoC_SharpBack\DAO\bin\Debug\net6.0\ref\DAO.dll
+C:\Users\vinic\Desktop\Repos\market\ProjetoC_SharpBack\DAO\bin\Debug\net6.0\DAO.pdb
+C:\Users\vinic\Desktop\Repos\market\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\DAO.csproj.AssemblyReference.cache
+C:\Users\vinic\Desktop\Repos\market\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\DAO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\Desktop\Repos\market\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\DAO.AssemblyInfoInputs.cache
+C:\Users\vinic\Desktop\Repos\market\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\DAO.AssemblyInfo.cs
+C:\Users\vinic\Desktop\Repos\market\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\DAO.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Desktop\Repos\market\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\DAO.dll
+C:\Users\vinic\Desktop\Repos\market\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\ref\DAO.dll
+C:\Users\vinic\Desktop\Repos\market\ProjetoC_SharpBack\DAO\obj\Debug\net6.0\DAO.pdb

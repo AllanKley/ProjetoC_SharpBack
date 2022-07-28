@@ -155,6 +155,7 @@ public class Product : IValidateDataObject, IDataController<ProductDTO, Product>
 
     public static List<ProductResponseDTO> getAllStatic()
     {
+        Console.WriteLine("Inicio");
         using (var context = new DAOContext())
         {
             var TodosOsProdutos = context.products.Join(context.stocks.Include(i=> i.store),
@@ -166,7 +167,7 @@ public class Product : IValidateDataObject, IDataController<ProductDTO, Product>
             }
             );
             var productsDTO = new List<ProductResponseDTO>();
-
+            Console.WriteLine("meio");
             foreach (var item in TodosOsProdutos)
             {
                 var TransitionDAO = new DTO.ProductResponseDTO();
@@ -181,6 +182,7 @@ public class Product : IValidateDataObject, IDataController<ProductDTO, Product>
                 TransitionDAO.IdStocks = item.Stock.id;
                 productsDTO.Add(TransitionDAO);
             }
+            Console.WriteLine("Fim");
             return productsDTO;
         }
     }

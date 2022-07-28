@@ -10,9 +10,10 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
     private Guid uuid = Guid.NewGuid();
     public List<OwnerDTO> ownerDTO = new List<OwnerDTO>();
     private Owner(Address address) { this.address = address; }
-    public Owner(){
+    public Owner()
+    {
 
-     }
+    }
 
     public static OwnerResponseDTO ConvertDaoToDTO(DAO.Owner OwnerDAO)
     {
@@ -35,7 +36,7 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
     {
         using (var context = new DAOContext())
         {
-            var ownerDAO = context.owners.Include(i=> i.address).FirstOrDefault(q => q.login == login && q.passwd == passwd);
+            var ownerDAO = context.owners.Include(i => i.address).FirstOrDefault(q => q.login == login && q.passwd == passwd);
             if (ownerDAO != null)
             {
                 var OwnerDTO = Owner.ConvertDaoToDTO(ownerDAO);
@@ -51,11 +52,14 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
     }
 
     public static Owner convertDTOToModel(OwnerDTO obj)
-    {   var owner =  new Owner();
-        if(obj.address != null){
+    {
+        var owner = new Owner();
+        if (obj.address != null)
+        {
             owner.address = Address.convertDTOToModel(obj.address);
         }
-        else{
+        else
+        {
             owner.address = null;
         }
         owner.name = obj.name;
@@ -73,11 +77,12 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
     {
         using (var context = new DAOContext())
         {
-           
+
             var ownerDAO = context.owners.Include(i => i.address).FirstOrDefault(o => o.id == id);
             var address = Address.convertDTOToModel(Address.ConvertDAOToDTO(ownerDAO.address));
 
-            return new Owner{
+            return new Owner
+            {
                 name = ownerDAO.name,
                 email = ownerDAO.email,
                 date_of_birth = ownerDAO.date_of_birth,
@@ -100,39 +105,48 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
 
         using (var context = new DAOContext())
         {
-
-            var address = new DAO.Address
+            var ExistOwner = context.owners.FirstOrDefault(q => q.document == this.document);
+            if (ExistOwner == null)
             {
-                street = this.address.getStreet(),
-                city = this.address.getCity(),
-                state = this.address.getState(),
-                country = this.address.getCountry(),
-                postal_code = this.address.getPostalCode()
-            };
+                var address = new DAO.Address
+                {
+                    street = this.address.getStreet(),
+                    city = this.address.getCity(),
+                    state = this.address.getState(),
+                    country = this.address.getCountry(),
+                    postal_code = this.address.getPostalCode()
+                };
 
-            context.addresses.Add(address);
+                context.addresses.Add(address);
 
-            var owner = new DAO.Owner
-            {
-                name = this.name,
-                date_of_birth = this.date_of_birth,
-                document = this.document,
-                email = this.email,
-                phone = this.phone,
-                passwd = this.passwd,
-                login = this.login,
-                address = address
-            };
+                var owner = new DAO.Owner
+                {
+                    name = this.name,
+                    date_of_birth = this.date_of_birth,
+                    document = this.document,
+                    email = this.email,
+                    phone = this.phone,
+                    passwd = this.passwd,
+                    login = this.login,
+                    address = address
+                };
 
-            context.owners.Add(owner);
+                context.owners.Add(owner);
 
-            context.SaveChanges();
+                context.SaveChanges();
 
 
-            document = owner.document;
+                document = owner.document;
 
+                return document;
+            }
+            else{
+                Console.WriteLine(this.document);
+                throw  new System.Exception("Document already register");
+            }
         }
-        return document;
+
+
     }
 
     public void update(OwnerDTO obj)
@@ -142,7 +156,7 @@ public class Owner : Person, IValidateDataObject, IDataController<OwnerDTO, Owne
 
     public OwnerDTO findById(int id)
     {
-        
+
         return new OwnerDTO();
     }
 

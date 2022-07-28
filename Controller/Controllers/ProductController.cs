@@ -51,7 +51,7 @@ public class ProductController : ControllerBase
     public IActionResult  allProducts(){
         var response = Model.Product.getAllStatic();
         var  retorno = new ObjectResult(response);
-
+        
         Response.Headers.Add("Access-Control-Allow-Origin", "*");
         return retorno;
     }

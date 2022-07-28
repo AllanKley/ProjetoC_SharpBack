@@ -24,13 +24,21 @@ public class OwnerController : ControllerBase
     [Route("register")]
     public object registerOwner([FromBody] OwnerDTO owner)
     {
-        var ownerModel = Model.Owner.convertDTOToModel(owner);
-        var document  = ownerModel.save();
-
-        return new
+        try
         {
-            response = document
-        };
+            var ownerModel = Model.Owner.convertDTOToModel(owner);
+            var document = ownerModel.save();
+
+            return new
+            {
+                response = document
+            };
+        }
+        catch(Exception e){
+            return BadRequest(e.Message);
+        }
+
+
     }
 
 
@@ -38,10 +46,11 @@ public class OwnerController : ControllerBase
     [Route("get")]
     public IActionResult getInformations()
     {
-        var OwnerId = Lib.GetIdFromRequest( Request.Headers["Authorization"].ToString());
+        var OwnerId = Lib.GetIdFromRequest(Request.Headers["Authorization"].ToString());
         var owner = Model.Owner.find(OwnerId);
-        
-        var clientobj = new{
+
+        var clientobj = new
+        {
             name = owner.getName(),
             email = owner.getEmail(),
             date_of_birth = owner.getDateOfBirth(),
